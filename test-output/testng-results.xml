@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21987" started-at="2023-04-19T14:32:44Z" finished-at="2023-04-19T14:33:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21987" started-at="2023-04-19T14:32:44Z" finished-at="2023-04-19T14:33:06Z">
+      <class name="com.MOFapi.MOFapi">
+        <test-method status="PASS" signature="SaveResponseFile()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="SaveResponseFile" is-config="true" duration-ms="498" started-at="2023-04-19T20:02:44Z" finished-at="2023-04-19T20:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveResponseFile -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="13" started-at="2023-04-19T20:02:44Z" finished-at="2023-04-19T20:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.GetServiceInquiry() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="GetServiceInquiry()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="GetServiceInquiry" duration-ms="7687" started-at="2023-04-19T20:02:44Z" finished-at="2023-04-19T20:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetServiceInquiry -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.InvalidserviceidURLGetStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="InvalidserviceidURLGetStatus()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="InvalidserviceidURLGetStatus" duration-ms="134" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidserviceidURLGetStatus -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.fetchserviceidURLGetStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="fetchserviceidURLGetStatus()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="fetchserviceidURLGetStatus" duration-ms="33" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchserviceidURLGetStatus -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.invalidMethodStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="invalidMethodStatus()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="invalidMethodStatus" duration-ms="40" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMethodStatus -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.invalidURLGetStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="invalidURLGetStatus()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="invalidURLGetStatus" duration-ms="31" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidURLGetStatus -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.withoutAUTHGetServiceInquiry() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="withoutAUTHGetServiceInquiry()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="withoutAUTHGetServiceInquiry" duration-ms="269" started-at="2023-04-19T20:02:52Z" finished-at="2023-04-19T20:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutAUTHGetServiceInquiry -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:02:53Z" finished-at="2023-04-19T20:02:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.minGetServiceAuthID() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="minGetServiceAuthID()[pri:1, instance:com.MOFapi.MOFapi@5025a98f]" name="minGetServiceAuthID" duration-ms="729" started-at="2023-04-19T20:02:53Z" finished-at="2023-04-19T20:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minGetServiceAuthID -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:02:53Z" finished-at="2023-04-19T20:02:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.maxGetServiceAuthID() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="maxGetServiceAuthID()[pri:2, instance:com.MOFapi.MOFapi@5025a98f]" name="maxGetServiceAuthID" duration-ms="458" started-at="2023-04-19T20:02:53Z" finished-at="2023-04-19T20:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxGetServiceAuthID -->
+        <test-method status="PASS" signature="minGetServiceAuthpwd()[pri:3, instance:com.MOFapi.MOFapi@5025a98f]" name="minGetServiceAuthpwd" duration-ms="117" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minGetServiceAuthpwd -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.minGetServiceAuthpwd() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="8" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.maxGetServiceAuthpwd() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="maxGetServiceAuthpwd()[pri:4, instance:com.MOFapi.MOFapi@5025a98f]" name="maxGetServiceAuthpwd" duration-ms="274" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxGetServiceAuthpwd -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankGetServiceAuthID() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="blankGetServiceAuthID()[pri:5, instance:com.MOFapi.MOFapi@5025a98f]" name="blankGetServiceAuthID" duration-ms="286" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankGetServiceAuthID -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankGetServiceAuthpwd() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="blankGetServiceAuthpwd()[pri:6, instance:com.MOFapi.MOFapi@5025a98f]" name="blankGetServiceAuthpwd" duration-ms="202" started-at="2023-04-19T20:02:54Z" finished-at="2023-04-19T20:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankGetServiceAuthpwd -->
+        <test-method status="PASS" signature="deciGetServiceAuthpwd()[pri:7, instance:com.MOFapi.MOFapi@5025a98f]" name="deciGetServiceAuthpwd" duration-ms="141" started-at="2023-04-19T20:02:55Z" finished-at="2023-04-19T20:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deciGetServiceAuthpwd -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:55Z" finished-at="2023-04-19T20:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.deciGetServiceAuthpwd() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:02:55Z" finished-at="2023-04-19T20:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.InvalidGetServiceAuth() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="InvalidGetServiceAuth()[pri:8, instance:com.MOFapi.MOFapi@5025a98f]" name="InvalidGetServiceAuth" duration-ms="352" started-at="2023-04-19T20:02:55Z" finished-at="2023-04-19T20:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidGetServiceAuth -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:55Z" finished-at="2023-04-19T20:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.deciGetServiceAuthID() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="deciGetServiceAuthID()[pri:9, instance:com.MOFapi.MOFapi@5025a98f]" name="deciGetServiceAuthID" duration-ms="2076" started-at="2023-04-19T20:02:55Z" finished-at="2023-04-19T20:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deciGetServiceAuthID -->
+        <test-method status="PASS" signature="PostServiceInquiryQty()[pri:10, instance:com.MOFapi.MOFapi@5025a98f]" name="PostServiceInquiryQty" duration-ms="249" started-at="2023-04-19T20:02:57Z" finished-at="2023-04-19T20:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiryQty -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:57Z" finished-at="2023-04-19T20:02:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.PostServiceInquiryQty() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="PostServiceInquiryAmt()[pri:11, instance:com.MOFapi.MOFapi@5025a98f]" name="PostServiceInquiryAmt" duration-ms="635" started-at="2023-04-19T20:02:58Z" finished-at="2023-04-19T20:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiryAmt -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:58Z" finished-at="2023-04-19T20:02:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.PostServiceInquiryAmt() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:02:58Z" finished-at="2023-04-19T20:02:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.minPostServiceInquiryAmt() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="minPostServiceInquiryAmt()[pri:28082023, instance:com.MOFapi.MOFapi@5025a98f]" name="minPostServiceInquiryAmt" duration-ms="749" started-at="2023-04-19T20:02:58Z" finished-at="2023-04-19T20:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minPostServiceInquiryAmt -->
+        <test-method status="PASS" signature="maxPostServiceInquiryAmt()[pri:13, instance:com.MOFapi.MOFapi@5025a98f]" name="maxPostServiceInquiryAmt" duration-ms="381" started-at="2023-04-19T20:02:59Z" finished-at="2023-04-19T20:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxPostServiceInquiryAmt -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:59Z" finished-at="2023-04-19T20:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.maxPostServiceInquiryAmt() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="blankPostServiceInquiryAmt()[pri:14, instance:com.MOFapi.MOFapi@5025a98f]" name="blankPostServiceInquiryAmt" duration-ms="606" started-at="2023-04-19T20:02:59Z" finished-at="2023-04-19T20:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPostServiceInquiryAmt -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:02:59Z" finished-at="2023-04-19T20:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankPostServiceInquiryAmt() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:03:00Z" finished-at="2023-04-19T20:03:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.decimalPostServiceInquiryAmt() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="decimalPostServiceInquiryAmt()[pri:15, instance:com.MOFapi.MOFapi@5025a98f]" name="decimalPostServiceInquiryAmt" duration-ms="18" started-at="2023-04-19T20:03:00Z" finished-at="2023-04-19T20:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decimalPostServiceInquiryAmt -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:00Z" finished-at="2023-04-19T20:03:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.InvalidPostServiceInquiryAmt() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="InvalidPostServiceInquiryAmt()[pri:16, instance:com.MOFapi.MOFapi@5025a98f]" name="InvalidPostServiceInquiryAmt" duration-ms="46" started-at="2023-04-19T20:03:00Z" finished-at="2023-04-19T20:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPostServiceInquiryAmt -->
+        <test-method status="PASS" signature="PostServiceInquirylist()[pri:17, instance:com.MOFapi.MOFapi@5025a98f]" name="PostServiceInquirylist" duration-ms="2509" started-at="2023-04-19T20:03:00Z" finished-at="2023-04-19T20:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquirylist -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:00Z" finished-at="2023-04-19T20:03:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.PostServiceInquirylist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:03:02Z" finished-at="2023-04-19T20:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankPostServiceIDInquirylist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="blankPostServiceIDInquirylist()[pri:17, instance:com.MOFapi.MOFapi@5025a98f]" name="blankPostServiceIDInquirylist" duration-ms="338" started-at="2023-04-19T20:03:02Z" finished-at="2023-04-19T20:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPostServiceIDInquirylist -->
+        <test-method status="PASS" signature="blankServicelistPostServiceInquirylist()[pri:17, instance:com.MOFapi.MOFapi@5025a98f]" name="blankServicelistPostServiceInquirylist" duration-ms="135" started-at="2023-04-19T20:03:03Z" finished-at="2023-04-19T20:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankServicelistPostServiceInquirylist -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:03Z" finished-at="2023-04-19T20:03:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankServicelistPostServiceInquirylist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:03:03Z" finished-at="2023-04-19T20:03:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankUniqueIDPostServiceInquirylist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="blankUniqueIDPostServiceInquirylist()[pri:17, instance:com.MOFapi.MOFapi@5025a98f]" name="blankUniqueIDPostServiceInquirylist" duration-ms="11" started-at="2023-04-19T20:03:03Z" finished-at="2023-04-19T20:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUniqueIDPostServiceInquirylist -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:03Z" finished-at="2023-04-19T20:03:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.deciPostServiceIDInquirylist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="deciPostServiceIDInquirylist()[pri:17, instance:com.MOFapi.MOFapi@5025a98f]" name="deciPostServiceIDInquirylist" duration-ms="628" started-at="2023-04-19T20:03:03Z" finished-at="2023-04-19T20:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deciPostServiceIDInquirylist -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:04Z" finished-at="2023-04-19T20:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.invalidPostServiceIDInquirylist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="invalidPostServiceIDInquirylist()[pri:17, instance:com.MOFapi.MOFapi@5025a98f]" name="invalidPostServiceIDInquirylist" duration-ms="89" started-at="2023-04-19T20:03:04Z" finished-at="2023-04-19T20:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPostServiceIDInquirylist -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:03:04Z" finished-at="2023-04-19T20:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.PostServiceTransactionstatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="PostServiceTransactionstatus()[pri:18, instance:com.MOFapi.MOFapi@5025a98f]" name="PostServiceTransactionstatus" duration-ms="722" started-at="2023-04-19T20:03:04Z" finished-at="2023-04-19T20:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceTransactionstatus -->
+        <test-method status="PASS" signature="minPostServiceInquiryQty()[pri:19, instance:com.MOFapi.MOFapi@5025a98f]" name="minPostServiceInquiryQty" duration-ms="1090" started-at="2023-04-19T20:03:04Z" finished-at="2023-04-19T20:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minPostServiceInquiryQty -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:04Z" finished-at="2023-04-19T20:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.minPostServiceInquiryQty() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="1" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.blankPostServiceInquiryQty() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="blankPostServiceInquiryQty()[pri:20, instance:com.MOFapi.MOFapi@5025a98f]" name="blankPostServiceInquiryQty" duration-ms="153" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPostServiceInquiryQty -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.maxPostServiceInquiryQty() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="maxPostServiceInquiryQty()[pri:21, instance:com.MOFapi.MOFapi@5025a98f]" name="maxPostServiceInquiryQty" duration-ms="403" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxPostServiceInquiryQty -->
+        <test-method status="PASS" signature="decimalPostServiceInquiryQty()[pri:22, instance:com.MOFapi.MOFapi@5025a98f]" name="decimalPostServiceInquiryQty" duration-ms="211" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decimalPostServiceInquiryQty -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.decimalPostServiceInquiryQty() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="InvalidPostServiceInquiryQty()[pri:23, instance:com.MOFapi.MOFapi@5025a98f]" name="InvalidPostServiceInquiryQty" duration-ms="20" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPostServiceInquiryQty -->
+        <test-method status="PASS" signature="beforeTestCase(java.lang.reflect.Method)[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2023-04-19T20:03:06Z" finished-at="2023-04-19T20:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MOFapi.MOFapi.InvalidPostServiceInquiryQty() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="SaveResponseFileclose()[pri:0, instance:com.MOFapi.MOFapi@5025a98f]" name="SaveResponseFileclose" is-config="true" duration-ms="1782" started-at="2023-04-19T20:03:07Z" finished-at="2023-04-19T20:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveResponseFileclose -->
+      </class> <!-- com.MOFapi.MOFapi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

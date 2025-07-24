@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/artifacts.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ATUReporter_Selenium_testNG_5.5_BETA.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ccavenue-java-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/charsets.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/content.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ebcdic-ascii-converter-0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/fontbox-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ISO8583ver1987.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/java-client-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/javax.mail-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/javax.mail-api-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jce.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jdbc-oracle.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jfr.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jpos.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/jsse.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/junit-jupiter-api-5.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/mysql-connector-j-8.4.0.zip"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/org.apache.commons.beanutils.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/org.testng.eclipse.maven.feature_6.11.0.201703011520.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/org.testng.eclipse_6.11.0.201703011520.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/phantomjsdriver-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/poi-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/poi-ooxml-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/poi-ooxml-schemas-3.13-20150929.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/resources.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/rt.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/selenium-java-3.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/selenium-server-3.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/testng-7.10.2.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/TSPService.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/webdrivermanager-5.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Desktop_MOF/MOF_UI/JARS/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

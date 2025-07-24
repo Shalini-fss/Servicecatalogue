@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\roshanbabu\AppData\Local\Temp\testng-eclipse-1817371510\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="GetServiceInquiry">GetServiceInquiry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="InvalidGetServiceAuth">InvalidGetServiceAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="InvalidPostServiceInquiryAmt">InvalidPostServiceInquiryAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="InvalidPostServiceInquiryQty">InvalidPostServiceInquiryQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="InvalidserviceidURLGetStatus">InvalidserviceidURLGetStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="PostServiceInquiryAmt">PostServiceInquiryAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="PostServiceInquiryQty">PostServiceInquiryQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="PostServiceInquirylist">PostServiceInquirylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="PostServiceTransactionstatus">PostServiceTransactionstatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankGetServiceAuthID">blankGetServiceAuthID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankGetServiceAuthpwd">blankGetServiceAuthpwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankPostServiceIDInquirylist">blankPostServiceIDInquirylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankPostServiceInquiryAmt">blankPostServiceInquiryAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankPostServiceInquiryQty">blankPostServiceInquiryQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankServicelistPostServiceInquirylist">blankServicelistPostServiceInquirylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="blankUniqueIDPostServiceInquirylist">blankUniqueIDPostServiceInquirylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="deciGetServiceAuthID">deciGetServiceAuthID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="deciGetServiceAuthpwd">deciGetServiceAuthpwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="deciPostServiceIDInquirylist">deciPostServiceIDInquirylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="decimalPostServiceInquiryAmt">decimalPostServiceInquiryAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="decimalPostServiceInquiryQty">decimalPostServiceInquiryQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="fetchserviceidURLGetStatus">fetchserviceidURLGetStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="invalidMethodStatus">invalidMethodStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="invalidPostServiceIDInquirylist">invalidPostServiceIDInquirylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="invalidURLGetStatus">invalidURLGetStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="maxGetServiceAuthID">maxGetServiceAuthID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="maxGetServiceAuthpwd">maxGetServiceAuthpwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="maxPostServiceInquiryAmt">maxPostServiceInquiryAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="maxPostServiceInquiryQty">maxPostServiceInquiryQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="minGetServiceAuthID">minGetServiceAuthID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="minGetServiceAuthpwd">minGetServiceAuthpwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="minPostServiceInquiryAmt">minPostServiceInquiryAmt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="minPostServiceInquiryQty">minPostServiceInquiryQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.MOFapi.MOFapi" hash-for-method="withoutAUTHGetServiceInquiry">withoutAUTHGetServiceInquiry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MOFapi.MOFapi</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetServiceInquiry">
+                  </a> <!-- GetServiceInquiry -->
+                  <span class="method-name">GetServiceInquiry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidGetServiceAuth">
+                  </a> <!-- InvalidGetServiceAuth -->
+                  <span class="method-name">InvalidGetServiceAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPostServiceInquiryAmt">
+                  </a> <!-- InvalidPostServiceInquiryAmt -->
+                  <span class="method-name">InvalidPostServiceInquiryAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPostServiceInquiryQty">
+                  </a> <!-- InvalidPostServiceInquiryQty -->
+                  <span class="method-name">InvalidPostServiceInquiryQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidserviceidURLGetStatus">
+                  </a> <!-- InvalidserviceidURLGetStatus -->
+                  <span class="method-name">InvalidserviceidURLGetStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostServiceInquiryAmt">
+                  </a> <!-- PostServiceInquiryAmt -->
+                  <span class="method-name">PostServiceInquiryAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostServiceInquiryQty">
+                  </a> <!-- PostServiceInquiryQty -->
+                  <span class="method-name">PostServiceInquiryQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostServiceInquirylist">
+                  </a> <!-- PostServiceInquirylist -->
+                  <span class="method-name">PostServiceInquirylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostServiceTransactionstatus">
+                  </a> <!-- PostServiceTransactionstatus -->
+                  <span class="method-name">PostServiceTransactionstatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankGetServiceAuthID">
+                  </a> <!-- blankGetServiceAuthID -->
+                  <span class="method-name">blankGetServiceAuthID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankGetServiceAuthpwd">
+                  </a> <!-- blankGetServiceAuthpwd -->
+                  <span class="method-name">blankGetServiceAuthpwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankPostServiceIDInquirylist">
+                  </a> <!-- blankPostServiceIDInquirylist -->
+                  <span class="method-name">blankPostServiceIDInquirylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankPostServiceInquiryAmt">
+                  </a> <!-- blankPostServiceInquiryAmt -->
+                  <span class="method-name">blankPostServiceInquiryAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankPostServiceInquiryQty">
+                  </a> <!-- blankPostServiceInquiryQty -->
+                  <span class="method-name">blankPostServiceInquiryQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankServicelistPostServiceInquirylist">
+                  </a> <!-- blankServicelistPostServiceInquirylist -->
+                  <span class="method-name">blankServicelistPostServiceInquirylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankUniqueIDPostServiceInquirylist">
+                  </a> <!-- blankUniqueIDPostServiceInquirylist -->
+                  <span class="method-name">blankUniqueIDPostServiceInquirylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deciGetServiceAuthID">
+                  </a> <!-- deciGetServiceAuthID -->
+                  <span class="method-name">deciGetServiceAuthID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deciGetServiceAuthpwd">
+                  </a> <!-- deciGetServiceAuthpwd -->
+                  <span class="method-name">deciGetServiceAuthpwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deciPostServiceIDInquirylist">
+                  </a> <!-- deciPostServiceIDInquirylist -->
+                  <span class="method-name">deciPostServiceIDInquirylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decimalPostServiceInquiryAmt">
+                  </a> <!-- decimalPostServiceInquiryAmt -->
+                  <span class="method-name">decimalPostServiceInquiryAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decimalPostServiceInquiryQty">
+                  </a> <!-- decimalPostServiceInquiryQty -->
+                  <span class="method-name">decimalPostServiceInquiryQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchserviceidURLGetStatus">
+                  </a> <!-- fetchserviceidURLGetStatus -->
+                  <span class="method-name">fetchserviceidURLGetStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidMethodStatus">
+                  </a> <!-- invalidMethodStatus -->
+                  <span class="method-name">invalidMethodStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPostServiceIDInquirylist">
+                  </a> <!-- invalidPostServiceIDInquirylist -->
+                  <span class="method-name">invalidPostServiceIDInquirylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidURLGetStatus">
+                  </a> <!-- invalidURLGetStatus -->
+                  <span class="method-name">invalidURLGetStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxGetServiceAuthID">
+                  </a> <!-- maxGetServiceAuthID -->
+                  <span class="method-name">maxGetServiceAuthID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxGetServiceAuthpwd">
+                  </a> <!-- maxGetServiceAuthpwd -->
+                  <span class="method-name">maxGetServiceAuthpwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxPostServiceInquiryAmt">
+                  </a> <!-- maxPostServiceInquiryAmt -->
+                  <span class="method-name">maxPostServiceInquiryAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxPostServiceInquiryQty">
+                  </a> <!-- maxPostServiceInquiryQty -->
+                  <span class="method-name">maxPostServiceInquiryQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minGetServiceAuthID">
+                  </a> <!-- minGetServiceAuthID -->
+                  <span class="method-name">minGetServiceAuthID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minGetServiceAuthpwd">
+                  </a> <!-- minGetServiceAuthpwd -->
+                  <span class="method-name">minGetServiceAuthpwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minPostServiceInquiryAmt">
+                  </a> <!-- minPostServiceInquiryAmt -->
+                  <span class="method-name">minPostServiceInquiryAmt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minPostServiceInquiryQty">
+                  </a> <!-- minPostServiceInquiryQty -->
+                  <span class="method-name">minPostServiceInquiryQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutAUTHGetServiceInquiry">
+                  </a> <!-- withoutAUTHGetServiceInquiry -->
+                  <span class="method-name">withoutAUTHGetServiceInquiry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\roshanbabu\AppData\Local\Temp\testng-eclipse-1817371510\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MOFapi.MOFapi&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'GetServiceInquiry')
+data.setCell(0, 2, 'com.MOFapi.MOFapi')
+data.setCell(0, 3, 7687);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PostServiceInquirylist')
+data.setCell(1, 2, 'com.MOFapi.MOFapi')
+data.setCell(1, 3, 2509);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deciGetServiceAuthID')
+data.setCell(2, 2, 'com.MOFapi.MOFapi')
+data.setCell(2, 3, 2076);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'minPostServiceInquiryQty')
+data.setCell(3, 2, 'com.MOFapi.MOFapi')
+data.setCell(3, 3, 1090);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PostServiceTransactionstatus')
+data.setCell(4, 2, 'com.MOFapi.MOFapi')
+data.setCell(4, 3, 722);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'minPostServiceInquiryAmt')
+data.setCell(5, 2, 'com.MOFapi.MOFapi')
+data.setCell(5, 3, 749);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'minGetServiceAuthID')
+data.setCell(6, 2, 'com.MOFapi.MOFapi')
+data.setCell(6, 3, 729);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PostServiceInquiryAmt')
+data.setCell(7, 2, 'com.MOFapi.MOFapi')
+data.setCell(7, 3, 635);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deciPostServiceIDInquirylist')
+data.setCell(8, 2, 'com.MOFapi.MOFapi')
+data.setCell(8, 3, 628);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'blankPostServiceInquiryAmt')
+data.setCell(9, 2, 'com.MOFapi.MOFapi')
+data.setCell(9, 3, 606);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'maxGetServiceAuthID')
+data.setCell(10, 2, 'com.MOFapi.MOFapi')
+data.setCell(10, 3, 458);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'maxPostServiceInquiryQty')
+data.setCell(11, 2, 'com.MOFapi.MOFapi')
+data.setCell(11, 3, 403);
+data.setCell(28082023, 0, 28082023)
+data.setCell(28082023, 1, 'maxPostServiceInquiryAmt')
+data.setCell(28082023, 2, 'com.MOFapi.MOFapi')
+data.setCell(28082023, 3, 381);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'InvalidGetServiceAuth')
+data.setCell(13, 2, 'com.MOFapi.MOFapi')
+data.setCell(13, 3, 352);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'blankPostServiceIDInquirylist')
+data.setCell(14, 2, 'com.MOFapi.MOFapi')
+data.setCell(14, 3, 338);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'blankGetServiceAuthID')
+data.setCell(15, 2, 'com.MOFapi.MOFapi')
+data.setCell(15, 3, 286);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'maxGetServiceAuthpwd')
+data.setCell(16, 2, 'com.MOFapi.MOFapi')
+data.setCell(16, 3, 274);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'withoutAUTHGetServiceInquiry')
+data.setCell(17, 2, 'com.MOFapi.MOFapi')
+data.setCell(17, 3, 269);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'PostServiceInquiryQty')
+data.setCell(18, 2, 'com.MOFapi.MOFapi')
+data.setCell(18, 3, 249);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'decimalPostServiceInquiryQty')
+data.setCell(19, 2, 'com.MOFapi.MOFapi')
+data.setCell(19, 3, 211);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'blankGetServiceAuthpwd')
+data.setCell(20, 2, 'com.MOFapi.MOFapi')
+data.setCell(20, 3, 202);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'blankPostServiceInquiryQty')
+data.setCell(21, 2, 'com.MOFapi.MOFapi')
+data.setCell(21, 3, 153);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'deciGetServiceAuthpwd')
+data.setCell(22, 2, 'com.MOFapi.MOFapi')
+data.setCell(22, 3, 141);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'blankServicelistPostServiceInquirylist')
+data.setCell(23, 2, 'com.MOFapi.MOFapi')
+data.setCell(23, 3, 135);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'InvalidserviceidURLGetStatus')
+data.setCell(24, 2, 'com.MOFapi.MOFapi')
+data.setCell(24, 3, 134);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'minGetServiceAuthpwd')
+data.setCell(25, 2, 'com.MOFapi.MOFapi')
+data.setCell(25, 3, 117);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'invalidPostServiceIDInquirylist')
+data.setCell(26, 2, 'com.MOFapi.MOFapi')
+data.setCell(26, 3, 89);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'InvalidPostServiceInquiryAmt')
+data.setCell(27, 2, 'com.MOFapi.MOFapi')
+data.setCell(27, 3, 46);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'invalidMethodStatus')
+data.setCell(28, 2, 'com.MOFapi.MOFapi')
+data.setCell(28, 3, 40);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'fetchserviceidURLGetStatus')
+data.setCell(29, 2, 'com.MOFapi.MOFapi')
+data.setCell(29, 3, 33);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'invalidURLGetStatus')
+data.setCell(30, 2, 'com.MOFapi.MOFapi')
+data.setCell(30, 3, 31);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'InvalidPostServiceInquiryQty')
+data.setCell(31, 2, 'com.MOFapi.MOFapi')
+data.setCell(31, 3, 20);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'decimalPostServiceInquiryAmt')
+data.setCell(32, 2, 'com.MOFapi.MOFapi')
+data.setCell(32, 3, 18);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'blankUniqueIDPostServiceInquirylist')
+data.setCell(33, 2, 'com.MOFapi.MOFapi')
+data.setCell(33, 3, 11);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.MOFapi.MOFapi</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">invalidenitityIDGetStatus</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MOFapi.MOFapi</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">SaveResponseFile</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.GetServiceInquiry() throws java.lang.Exception)</span>
+                <span class="method-start">531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetServiceInquiry</span>
+                <span class="method-start">544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.InvalidserviceidURLGetStatus() throws java.lang.Exception)</span>
+                <span class="method-start">8233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidserviceidURLGetStatus</span>
+                <span class="method-start">8233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.fetchserviceidURLGetStatus() throws java.lang.Exception)</span>
+                <span class="method-start">8369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fetchserviceidURLGetStatus</span>
+                <span class="method-start">8369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.invalidMethodStatus() throws java.lang.Exception)</span>
+                <span class="method-start">8408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidMethodStatus</span>
+                <span class="method-start">8408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.invalidURLGetStatus() throws java.lang.Exception)</span>
+                <span class="method-start">8449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidURLGetStatus</span>
+                <span class="method-start">8449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.withoutAUTHGetServiceInquiry() throws java.lang.Exception)</span>
+                <span class="method-start">8484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">withoutAUTHGetServiceInquiry</span>
+                <span class="method-start">8484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.minGetServiceAuthID() throws java.lang.Exception)</span>
+                <span class="method-start">8760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minGetServiceAuthID</span>
+                <span class="method-start">8761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.maxGetServiceAuthID() throws java.lang.Exception)</span>
+                <span class="method-start">9491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxGetServiceAuthID</span>
+                <span class="method-start">9492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.minGetServiceAuthpwd() throws java.lang.Exception)</span>
+                <span class="method-start">9953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minGetServiceAuthpwd</span>
+                <span class="method-start">9953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.maxGetServiceAuthpwd() throws java.lang.Exception)</span>
+                <span class="method-start">10074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxGetServiceAuthpwd</span>
+                <span class="method-start">10082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankGetServiceAuthID() throws java.lang.Exception)</span>
+                <span class="method-start">10358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankGetServiceAuthID</span>
+                <span class="method-start">10358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankGetServiceAuthpwd() throws java.lang.Exception)</span>
+                <span class="method-start">10645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankGetServiceAuthpwd</span>
+                <span class="method-start">10646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.deciGetServiceAuthpwd() throws java.lang.Exception)</span>
+                <span class="method-start">10849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deciGetServiceAuthpwd</span>
+                <span class="method-start">10849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.InvalidGetServiceAuth() throws java.lang.Exception)</span>
+                <span class="method-start">10993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidGetServiceAuth</span>
+                <span class="method-start">10994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.deciGetServiceAuthID() throws java.lang.Exception)</span>
+                <span class="method-start">11349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deciGetServiceAuthID</span>
+                <span class="method-start">11350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.PostServiceInquiryQty() throws java.lang.Exception)</span>
+                <span class="method-start">13432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PostServiceInquiryQty</span>
+                <span class="method-start">13432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.PostServiceInquiryAmt() throws java.lang.Exception)</span>
+                <span class="method-start">13682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PostServiceInquiryAmt</span>
+                <span class="method-start">13682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.minPostServiceInquiryAmt() throws java.lang.Exception)</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minPostServiceInquiryAmt</span>
+                <span class="method-start">14319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.maxPostServiceInquiryAmt() throws java.lang.Exception)</span>
+                <span class="method-start">15069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxPostServiceInquiryAmt</span>
+                <span class="method-start">15069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankPostServiceInquiryAmt() throws java.lang.Exception)</span>
+                <span class="method-start">15451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankPostServiceInquiryAmt</span>
+                <span class="method-start">15451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.decimalPostServiceInquiryAmt() throws java.lang.Exception)</span>
+                <span class="method-start">16058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">decimalPostServiceInquiryAmt</span>
+                <span class="method-start">16059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.InvalidPostServiceInquiryAmt() throws java.lang.Exception)</span>
+                <span class="method-start">16078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidPostServiceInquiryAmt</span>
+                <span class="method-start">16078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.PostServiceInquirylist() throws java.lang.Exception)</span>
+                <span class="method-start">16280820235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PostServiceInquirylist</span>
+                <span class="method-start">16280820235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankPostServiceIDInquirylist() throws java.lang.Exception)</span>
+                <span class="method-start">18637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankPostServiceIDInquirylist</span>
+                <span class="method-start">18638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankServicelistPostServiceInquirylist() throws java.lang.Exception)</span>
+                <span class="method-start">18977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankServicelistPostServiceInquirylist</span>
+                <span class="method-start">18977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankUniqueIDPostServiceInquirylist() throws java.lang.Exception)</span>
+                <span class="method-start">19113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankUniqueIDPostServiceInquirylist</span>
+                <span class="method-start">19114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.deciPostServiceIDInquirylist() throws java.lang.Exception)</span>
+                <span class="method-start">19280820236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deciPostServiceIDInquirylist</span>
+                <span class="method-start">19280820236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.invalidPostServiceIDInquirylist() throws java.lang.Exception)</span>
+                <span class="method-start">20925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPostServiceIDInquirylist</span>
+                <span class="method-start">20925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.PostServiceTransactionstatus() throws java.lang.Exception)</span>
+                <span class="method-start">19845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PostServiceTransactionstatus</span>
+                <span class="method-start">19846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.minPostServiceInquiryQty() throws java.lang.Exception)</span>
+                <span class="method-start">20600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minPostServiceInquiryQty</span>
+                <span class="method-start">20600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.blankPostServiceInquiryQty() throws java.lang.Exception)</span>
+                <span class="method-start">21691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankPostServiceInquiryQty</span>
+                <span class="method-start">21692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.maxPostServiceInquiryQty() throws java.lang.Exception)</span>
+                <span class="method-start">21846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxPostServiceInquiryQty</span>
+                <span class="method-start">21846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.decimalPostServiceInquiryQty() throws java.lang.Exception)</span>
+                <span class="method-start">22250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">decimalPostServiceInquiryQty</span>
+                <span class="method-start">22250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestCase(public void com.MOFapi.MOFapi.InvalidPostServiceInquiryQty() throws java.lang.Exception)</span>
+                <span class="method-start">22462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidPostServiceInquiryQty</span>
+                <span class="method-start">22462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">SaveResponseFileclose</span>
+                <span class="method-start">22667 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.MOFapi.MOFapi">
+        <methods>
+          <include name="PostService_Dynamic_quantity5"/>
+          <include name="PostServiceInquiryQty_Fixed"/>
+          <include name="SaveResponseFileclose"/>
+          <include name="PostService_Fixed_quantity5"/>
+          <include name="SaveResponseFile"/>
+          <include name="PostServiceTransactionstatus1"/>
+        </methods>
+      </class> <!-- com.MOFapi.MOFapi -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
