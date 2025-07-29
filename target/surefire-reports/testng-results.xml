@@ -1,11 +1,521 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="125" passed="125" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T10:49:04Z" name="AutomationSuite" finished-at="2025-07-29T10:49:04Z" duration-ms="9">
+  <suite started-at="2025-07-29T11:35:48Z" name="MOFApiSuite" finished-at="2025-07-29T11:36:01Z" duration-ms="13398">
     <groups>
     </groups>
-    <test started-at="2025-07-29T10:49:04Z" name="EngineTest" finished-at="2025-07-29T10:49:04Z" duration-ms="9">
-    </test> <!-- EngineTest -->
-  </suite> <!-- AutomationSuite -->
+    <test started-at="2025-07-29T11:35:48Z" name="MOFApiTests" finished-at="2025-07-29T11:36:01Z" duration-ms="13398">
+      <class name="com.MOFapi.MOFapi">
+        <test-method is-config="true" signature="initializeReports()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:48Z" name="initializeReports" finished-at="2025-07-29T11:35:48Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method signature="Fetchvalid_SingleService_ValidServiceid()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:48Z" name="Fetchvalid_SingleService_ValidServiceid" finished-at="2025-07-29T11:35:57Z" duration-ms="9263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fetchvalid_SingleService_ValidServiceid -->
+        <test-method signature="GetServiceInquiry()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="GetServiceInquiry" finished-at="2025-07-29T11:35:57Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetServiceInquiry -->
+        <test-method signature="MinEntityid_GetServiceInquiry()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="MinEntityid_GetServiceInquiry" finished-at="2025-07-29T11:35:57Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MinEntityid_GetServiceInquiry -->
+        <test-method signature="SpecialCharacterEntityID_GetServiceInquiry()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="SpecialCharacterEntityID_GetServiceInquiry" finished-at="2025-07-29T11:35:57Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecialCharacterEntityID_GetServiceInquiry -->
+        <test-method signature="maxEntityID_GetServiceInquiry()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="maxEntityID_GetServiceInquiry" finished-at="2025-07-29T11:35:57Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxEntityID_GetServiceInquiry -->
+        <test-method signature="AlphaNumericEntityID_GetServiceInquiry()[pri:1, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="AlphaNumericEntityID_GetServiceInquiry" finished-at="2025-07-29T11:35:57Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlphaNumericEntityID_GetServiceInquiry -->
+        <test-method signature="FetchSingleService_InvalidServiceid()[pri:1, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="FetchSingleService_InvalidServiceid" finished-at="2025-07-29T11:35:57Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_InvalidServiceid -->
+        <test-method signature="InvalidGetServiceInquiry()[pri:1, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:57Z" name="InvalidGetServiceInquiry" finished-at="2025-07-29T11:35:57Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidGetServiceInquiry -->
+        <test-method signature="BlankEntityID_GetServiceInquiry()[pri:2, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="BlankEntityID_GetServiceInquiry" finished-at="2025-07-29T11:35:58Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankEntityID_GetServiceInquiry -->
+        <test-method signature="FetchSingleService_MaxServiceid()[pri:2, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="FetchSingleService_MaxServiceid" finished-at="2025-07-29T11:35:58Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_MaxServiceid -->
+        <test-method signature="DecimalEntityID_GetServiceInquiry()[pri:3, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="DecimalEntityID_GetServiceInquiry" finished-at="2025-07-29T11:35:58Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DecimalEntityID_GetServiceInquiry -->
+        <test-method signature="FetchSingleService_MinServiceid()[pri:3, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="FetchSingleService_MinServiceid" finished-at="2025-07-29T11:35:58Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_MinServiceid -->
+        <test-method signature="FetchSingleService_BlankServiceid()[pri:4, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="FetchSingleService_BlankServiceid" finished-at="2025-07-29T11:35:58Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_BlankServiceid -->
+        <test-method signature="PostServiceInquiry_BlankServiceId()[pri:4, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="PostServiceInquiry_BlankServiceId" finished-at="2025-07-29T11:35:58Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_BlankServiceId -->
+        <test-method signature="PostServiceInquiry_InvalidServiceId()[pri:4, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="PostServiceInquiry_InvalidServiceId" finished-at="2025-07-29T11:35:58Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_InvalidServiceId -->
+        <test-method signature="PostServiceInquiry_MaxServiceId()[pri:4, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="PostServiceInquiry_MaxServiceId" finished-at="2025-07-29T11:35:58Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MaxServiceId -->
+        <test-method signature="PostServiceInquiry_MinServiceId()[pri:4, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="PostServiceInquiry_MinServiceId" finished-at="2025-07-29T11:35:58Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MinServiceId -->
+        <test-method signature="PostServiceInquiry_ValidServiceId()[pri:4, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="PostServiceInquiry_ValidServiceId" finished-at="2025-07-29T11:35:58Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_ValidServiceId -->
+        <test-method signature="FetchSingleService_SpecialCharacterServiceid()[pri:5, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="FetchSingleService_SpecialCharacterServiceid" finished-at="2025-07-29T11:35:58Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_SpecialCharacterServiceid -->
+        <test-method signature="PostServiceInquiry_SpecialCharacterServiceid()[pri:5, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="PostServiceInquiry_SpecialCharacterServiceid" finished-at="2025-07-29T11:35:58Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_SpecialCharacterServiceid -->
+        <test-method signature="FetchSingleService_AlphaNumericServiceid()[pri:6, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:58Z" name="FetchSingleService_AlphaNumericServiceid" finished-at="2025-07-29T11:35:59Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_AlphaNumericServiceid -->
+        <test-method signature="PostServiceInquiry_AlphaNumericServiceid()[pri:6, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_AlphaNumericServiceid" finished-at="2025-07-29T11:35:59Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_AlphaNumericServiceid -->
+        <test-method signature="FetchSingleService_DecimalServiceid()[pri:7, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="FetchSingleService_DecimalServiceid" finished-at="2025-07-29T11:35:59Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchSingleService_DecimalServiceid -->
+        <test-method signature="PostServiceInquiry_DecimalServiceid()[pri:7, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_DecimalServiceid" finished-at="2025-07-29T11:35:59Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_DecimalServiceid -->
+        <test-method signature="PostServiceInquiry_ValidUniqueID()[pri:7, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_ValidUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_ValidUniqueID -->
+        <test-method signature="PostServiceInquiry_InvalidUniqueID()[pri:8, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_InvalidUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_InvalidUniqueID -->
+        <test-method signature="PostServiceInquiry_MaxUniqueID()[pri:9, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_MaxUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MaxUniqueID -->
+        <test-method signature="PostServiceInquiry_MinUniqueID()[pri:10, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_MinUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MinUniqueID -->
+        <test-method signature="PostServiceInquiry_BlankUniqueID()[pri:11, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_BlankUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_BlankUniqueID -->
+        <test-method signature="PostServiceInquiry_SpecialCharacterUniqueID()[pri:12, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_SpecialCharacterUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_SpecialCharacterUniqueID -->
+        <test-method signature="PostServiceInquiry_AlphaNumericUniqueID()[pri:13, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_AlphaNumericUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_AlphaNumericUniqueID -->
+        <test-method signature="PostServiceInquiry_DecimalUniqueID()[pri:14, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_DecimalUniqueID" finished-at="2025-07-29T11:35:59Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_DecimalUniqueID -->
+        <test-method signature="PostServiceInquiry_ValidQuantity()[pri:15, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_ValidQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_ValidQuantity -->
+        <test-method signature="PostServiceInquiry_InvalidQuantity()[pri:16, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_InvalidQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_InvalidQuantity -->
+        <test-method signature="PostServiceInquiry_MaxQuantity()[pri:17, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_MaxQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MaxQuantity -->
+        <test-method signature="PostServiceInquiry_MinQuantity()[pri:18, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_MinQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MinQuantity -->
+        <test-method signature="PostServiceInquiry_BlankQuantity()[pri:19, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_BlankQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_BlankQuantity -->
+        <test-method signature="PostServiceInquiry_SpecialCharacterQuantity()[pri:20, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_SpecialCharacterQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_SpecialCharacterQuantity -->
+        <test-method signature="PostServiceInquiry_AlphaNumericQuantity()[pri:21, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_AlphaNumericQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_AlphaNumericQuantity -->
+        <test-method signature="PostServiceInquiry_DecimalQuantity()[pri:22, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_DecimalQuantity" finished-at="2025-07-29T11:35:59Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_DecimalQuantity -->
+        <test-method signature="PostServiceInquiry_ValidServiceidDynamic()[pri:22, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_ValidServiceidDynamic" finished-at="2025-07-29T11:35:59Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_ValidServiceidDynamic -->
+        <test-method signature="PostServiceInquiry_ValidAmount()[pri:23, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_ValidAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_ValidAmount -->
+        <test-method signature="PostServiceInquiry_InvalidAmount()[pri:24, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_InvalidAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_InvalidAmount -->
+        <test-method signature="PostServiceInquiry_MaxAmount()[pri:25, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_MaxAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MaxAmount -->
+        <test-method signature="PostServiceInquiry_MinAmount()[pri:26, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_MinAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_MinAmount -->
+        <test-method signature="PostServiceInquiry_BlankAmount()[pri:27, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_BlankAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_BlankAmount -->
+        <test-method signature="PostServiceInquiry_SpecialCharacterAmount()[pri:28, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_SpecialCharacterAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_SpecialCharacterAmount -->
+        <test-method signature="PostServiceInquiry_AlphaNumericAmount()[pri:29, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_AlphaNumericAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_AlphaNumericAmount -->
+        <test-method signature="PostServiceInquiry_DecimalAmount()[pri:30, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="PostServiceInquiry_DecimalAmount" finished-at="2025-07-29T11:35:59Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostServiceInquiry_DecimalAmount -->
+        <test-method signature="Transactionstatus_ValidCatalogueTransactionId()[pri:30, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="Transactionstatus_ValidCatalogueTransactionId" finished-at="2025-07-29T11:35:59Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_InvalidCatalogueTransactionId()[pri:31, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="Transactionstatus_InvalidCatalogueTransactionId" finished-at="2025-07-29T11:35:59Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_MaxCatalogueTransactionId()[pri:32, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:35:59Z" name="Transactionstatus_MaxCatalogueTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_MinCatalogueTransactionId()[pri:33, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_MinCatalogueTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_SpecialCharacterCatalogueTransactionId()[pri:34, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_SpecialCharacterCatalogueTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_AlphaNumericCatalogueTransactionId()[pri:35, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_AlphaNumericCatalogueTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_BlankCatalogueTransactionId()[pri:36, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_BlankCatalogueTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_DecimalCatalogueTransactionId()[pri:37, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_DecimalCatalogueTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalCatalogueTransactionId -->
+        <test-method signature="Transactionstatus_InvalidAcqTransactionstatus()[pri:38, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_ValidAcqTransactionstatus()[pri:38, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_MaxAcqTransactionstatus()[pri:40, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_MaxAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_MinAcqTransactionstatus()[pri:41, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_MinAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqTransactionstatus()[pri:42, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_SpecialCharacterAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqTransactionstatus()[pri:43, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_AlphaNumericAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_BlankAcqTransactionstatus()[pri:44, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_BlankAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_DecimalAcqTransactionstatus()[pri:45, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_DecimalAcqTransactionstatus" finished-at="2025-07-29T11:36:00Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqTransactionstatus -->
+        <test-method signature="Transactionstatus_ValidAcqErrorCode()[pri:46, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqErrorCode -->
+        <test-method signature="Transactionstatus_InvalidAcqErrorCode()[pri:47, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqErrorCode -->
+        <test-method signature="Transactionstatus_MaxAcqErrorCode()[pri:48, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_MaxAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqErrorCode -->
+        <test-method signature="Transactionstatus_MinAcqErrorCode()[pri:49, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_MinAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqErrorCode -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqErrorCode()[pri:50, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_SpecialCharacterAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqErrorCode -->
+        <test-method signature="Transactionstatus_BlankAcqErrorCode()[pri:51, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_BlankAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqErrorCode -->
+        <test-method signature="Transactionstatus_DecimalAcqErrorCode()[pri:52, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_DecimalAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqErrorCode -->
+        <test-method signature="InquiryList_InvalidAmount()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="InquiryList_InvalidAmount" finished-at="2025-07-29T11:36:00Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InquiryList_InvalidAmount -->
+        <test-method signature="InquiryList_InvalidQuantity()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="InquiryList_InvalidQuantity" finished-at="2025-07-29T11:36:00Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InquiryList_InvalidQuantity -->
+        <test-method signature="InquiryList_InvalidUniqueID()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="InquiryList_InvalidUniqueID" finished-at="2025-07-29T11:36:00Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InquiryList_InvalidUniqueID -->
+        <test-method signature="InquiryList_Valid()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="InquiryList_Valid" finished-at="2025-07-29T11:36:00Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InquiryList_Valid -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqErrorCode()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_AlphaNumericAcqErrorCode" finished-at="2025-07-29T11:36:00Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqErrorCode -->
+        <test-method signature="Transactionstatus_ValidAcqPaymentMode()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqPaymentMode" finished-at="2025-07-29T11:36:00Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqPaymentMode -->
+        <test-method signature="Transactionstatus_ValidAcqRRN()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqRRN" finished-at="2025-07-29T11:36:00Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqRRN -->
+        <test-method signature="Transactionstatus_ValidAcqTransactionAmount()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqTransactionAmount" finished-at="2025-07-29T11:36:00Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_ValidAcqTransactionId()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqTransactionId -->
+        <test-method signature="Transactionstatus_ValidCardName()[pri:53, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidCardName" finished-at="2025-07-29T11:36:00Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidCardName -->
+        <test-method signature="Transactionstatus_InvalidAcqPaymentMode()[pri:54, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidAcqPaymentMode" finished-at="2025-07-29T11:36:00Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqPaymentMode -->
+        <test-method signature="Transactionstatus_InvalidAcqRRN()[pri:54, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidAcqRRN" finished-at="2025-07-29T11:36:00Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqRRN -->
+        <test-method signature="Transactionstatus_InvalidAcqTransactionAmount()[pri:54, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidAcqTransactionAmount" finished-at="2025-07-29T11:36:00Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_InvalidAcqTransactionId()[pri:54, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidAcqTransactionId" finished-at="2025-07-29T11:36:00Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqTransactionId -->
+        <test-method signature="Transactionstatus_InvalidCardName()[pri:54, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_InvalidCardName" finished-at="2025-07-29T11:36:00Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidCardName -->
+        <test-method signature="Transactionstatus_ValidAcqErrorText()[pri:54, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:00Z" name="Transactionstatus_ValidAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_ValidAcqErrorText -->
+        <test-method signature="Transactionstatus_InvalidAcqErrorText()[pri:55, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_InvalidAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_InvalidAcqErrorText -->
+        <test-method signature="Transactionstatus_MaxAcqPaymentMode()[pri:55, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MaxAcqPaymentMode" finished-at="2025-07-29T11:36:01Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqPaymentMode -->
+        <test-method signature="Transactionstatus_MaxAcqRRN()[pri:55, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MaxAcqRRN" finished-at="2025-07-29T11:36:01Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqRRN -->
+        <test-method signature="Transactionstatus_MaxAcqTransactionAmount()[pri:55, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MaxAcqTransactionAmount" finished-at="2025-07-29T11:36:01Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_MaxAcqTransactionId()[pri:55, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MaxAcqTransactionId" finished-at="2025-07-29T11:36:01Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqTransactionId -->
+        <test-method signature="Transactionstatus_MaxCardName()[pri:55, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MaxCardName" finished-at="2025-07-29T11:36:01Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxCardName -->
+        <test-method signature="Transactionstatus_MaxAcqErrorText()[pri:56, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MaxAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MaxAcqErrorText -->
+        <test-method signature="Transactionstatus_MinAcqPaymentMode()[pri:56, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MinAcqPaymentMode" finished-at="2025-07-29T11:36:01Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqPaymentMode -->
+        <test-method signature="Transactionstatus_MinAcqRRN()[pri:56, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MinAcqRRN" finished-at="2025-07-29T11:36:01Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqRRN -->
+        <test-method signature="Transactionstatus_MinAcqTransactionAmount()[pri:56, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MinAcqTransactionAmount" finished-at="2025-07-29T11:36:01Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_MinAcqTransactionId()[pri:56, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MinAcqTransactionId" finished-at="2025-07-29T11:36:01Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqTransactionId -->
+        <test-method signature="Transactionstatus_MinCardName()[pri:56, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MinCardName" finished-at="2025-07-29T11:36:01Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinCardName -->
+        <test-method signature="Transactionstatus_MinAcqErrorText()[pri:57, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_MinAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_MinAcqErrorText -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqPaymentMode()[pri:57, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_SpecialCharacterAcqPaymentMode" finished-at="2025-07-29T11:36:01Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqPaymentMode -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqRRN()[pri:57, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_SpecialCharacterAcqRRN" finished-at="2025-07-29T11:36:01Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqRRN -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqTransactionAmount()[pri:57, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_SpecialCharacterAcqTransactionAmount" finished-at="2025-07-29T11:36:01Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqTransactionId()[pri:57, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_SpecialCharacterAcqTransactionId" finished-at="2025-07-29T11:36:01Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqTransactionId -->
+        <test-method signature="Transactionstatus_SpecialCharacterCardName()[pri:57, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_SpecialCharacterCardName" finished-at="2025-07-29T11:36:01Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterCardName -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqPaymentMode()[pri:58, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_AlphaNumericAcqPaymentMode" finished-at="2025-07-29T11:36:01Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqPaymentMode -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqRRN()[pri:58, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_AlphaNumericAcqRRN" finished-at="2025-07-29T11:36:01Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqRRN -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqTransactionAmount()[pri:58, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_AlphaNumericAcqTransactionAmount" finished-at="2025-07-29T11:36:01Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqTransactionId()[pri:58, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_AlphaNumericAcqTransactionId" finished-at="2025-07-29T11:36:01Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqTransactionId -->
+        <test-method signature="Transactionstatus_AlphaNumericCardName()[pri:58, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_AlphaNumericCardName" finished-at="2025-07-29T11:36:01Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericCardName -->
+        <test-method signature="Transactionstatus_SpecialCharacterAcqErrorText()[pri:58, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_SpecialCharacterAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_SpecialCharacterAcqErrorText -->
+        <test-method signature="Transactionstatus_AlphaNumericAcqErrorText()[pri:59, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_AlphaNumericAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_AlphaNumericAcqErrorText -->
+        <test-method signature="Transactionstatus_BlankAcqPaymentMode()[pri:59, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_BlankAcqPaymentMode" finished-at="2025-07-29T11:36:01Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqPaymentMode -->
+        <test-method signature="Transactionstatus_BlankAcqRRN()[pri:59, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_BlankAcqRRN" finished-at="2025-07-29T11:36:01Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqRRN -->
+        <test-method signature="Transactionstatus_BlankAcqTransactionAmount()[pri:59, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_BlankAcqTransactionAmount" finished-at="2025-07-29T11:36:01Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_BlankAcqTransactionId()[pri:59, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_BlankAcqTransactionId" finished-at="2025-07-29T11:36:01Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqTransactionId -->
+        <test-method signature="Transactionstatus_BlankCardName()[pri:59, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_BlankCardName" finished-at="2025-07-29T11:36:01Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankCardName -->
+        <test-method signature="Transactionstatus_BlankAcqErrorText()[pri:60, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_BlankAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_BlankAcqErrorText -->
+        <test-method signature="Transactionstatus_DecimalAcqPaymentMode()[pri:60, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_DecimalAcqPaymentMode" finished-at="2025-07-29T11:36:01Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqPaymentMode -->
+        <test-method signature="Transactionstatus_DecimalAcqRRN()[pri:60, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_DecimalAcqRRN" finished-at="2025-07-29T11:36:01Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqRRN -->
+        <test-method signature="Transactionstatus_DecimalAcqTransactionAmount()[pri:60, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_DecimalAcqTransactionAmount" finished-at="2025-07-29T11:36:01Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqTransactionAmount -->
+        <test-method signature="Transactionstatus_DecimalAcqTransactionId()[pri:60, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_DecimalAcqTransactionId" finished-at="2025-07-29T11:36:01Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqTransactionId -->
+        <test-method signature="Transactionstatus_DecimalCardName()[pri:60, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_DecimalCardName" finished-at="2025-07-29T11:36:01Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalCardName -->
+        <test-method signature="Transactionstatus_DecimalAcqErrorText()[pri:61, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="Transactionstatus_DecimalAcqErrorText" finished-at="2025-07-29T11:36:01Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionstatus_DecimalAcqErrorText -->
+        <test-method is-config="true" signature="SaveResponseFileclose()[pri:0, instance:com.MOFapi.MOFapi@75329a49]" started-at="2025-07-29T11:36:01Z" name="SaveResponseFileclose" finished-at="2025-07-29T11:36:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveResponseFileclose -->
+      </class> <!-- com.MOFapi.MOFapi -->
+    </test> <!-- MOFApiTests -->
+  </suite> <!-- MOFApiSuite -->
 </testng-results>

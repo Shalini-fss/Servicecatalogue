@@ -1,0 +1,704 @@
+<html>
+<head>
+<title>TestNG:  MOFApiTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MOFApiTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>125/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 29 17:05:48 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13398 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MOFapi.MOFapi.AlphaNumericEntityID_GetServiceInquiry()'><b>AlphaNumericEntityID_GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.BlankEntityID_GetServiceInquiry()'><b>BlankEntityID_GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.DecimalEntityID_GetServiceInquiry()'><b>DecimalEntityID_GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_AlphaNumericServiceid()'><b>FetchSingleService_AlphaNumericServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_BlankServiceid()'><b>FetchSingleService_BlankServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_DecimalServiceid()'><b>FetchSingleService_DecimalServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_InvalidServiceid()'><b>FetchSingleService_InvalidServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_MaxServiceid()'><b>FetchSingleService_MaxServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_MinServiceid()'><b>FetchSingleService_MinServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.FetchSingleService_SpecialCharacterServiceid()'><b>FetchSingleService_SpecialCharacterServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Fetchvalid_SingleService_ValidServiceid()'><b>Fetchvalid_SingleService_ValidServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>9</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.GetServiceInquiry()'><b>GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.InquiryList_InvalidAmount()'><b>InquiryList_InvalidAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.InquiryList_InvalidQuantity()'><b>InquiryList_InvalidQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.InquiryList_InvalidUniqueID()'><b>InquiryList_InvalidUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.InquiryList_Valid()'><b>InquiryList_Valid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.InvalidGetServiceInquiry()'><b>InvalidGetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.MinEntityid_GetServiceInquiry()'><b>MinEntityid_GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_AlphaNumericAmount()'><b>PostServiceInquiry_AlphaNumericAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_AlphaNumericQuantity()'><b>PostServiceInquiry_AlphaNumericQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_AlphaNumericServiceid()'><b>PostServiceInquiry_AlphaNumericServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_AlphaNumericUniqueID()'><b>PostServiceInquiry_AlphaNumericUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_BlankAmount()'><b>PostServiceInquiry_BlankAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_BlankQuantity()'><b>PostServiceInquiry_BlankQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_BlankServiceId()'><b>PostServiceInquiry_BlankServiceId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_BlankUniqueID()'><b>PostServiceInquiry_BlankUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_DecimalAmount()'><b>PostServiceInquiry_DecimalAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_DecimalQuantity()'><b>PostServiceInquiry_DecimalQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_DecimalServiceid()'><b>PostServiceInquiry_DecimalServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_DecimalUniqueID()'><b>PostServiceInquiry_DecimalUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_InvalidAmount()'><b>PostServiceInquiry_InvalidAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_InvalidQuantity()'><b>PostServiceInquiry_InvalidQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_InvalidServiceId()'><b>PostServiceInquiry_InvalidServiceId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_InvalidUniqueID()'><b>PostServiceInquiry_InvalidUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MaxAmount()'><b>PostServiceInquiry_MaxAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MaxQuantity()'><b>PostServiceInquiry_MaxQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MaxServiceId()'><b>PostServiceInquiry_MaxServiceId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MaxUniqueID()'><b>PostServiceInquiry_MaxUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MinAmount()'><b>PostServiceInquiry_MinAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MinQuantity()'><b>PostServiceInquiry_MinQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MinServiceId()'><b>PostServiceInquiry_MinServiceId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_MinUniqueID()'><b>PostServiceInquiry_MinUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_SpecialCharacterAmount()'><b>PostServiceInquiry_SpecialCharacterAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_SpecialCharacterQuantity()'><b>PostServiceInquiry_SpecialCharacterQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_SpecialCharacterServiceid()'><b>PostServiceInquiry_SpecialCharacterServiceid</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_SpecialCharacterUniqueID()'><b>PostServiceInquiry_SpecialCharacterUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_ValidAmount()'><b>PostServiceInquiry_ValidAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_ValidQuantity()'><b>PostServiceInquiry_ValidQuantity</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_ValidServiceId()'><b>PostServiceInquiry_ValidServiceId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_ValidServiceidDynamic()'><b>PostServiceInquiry_ValidServiceidDynamic</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.PostServiceInquiry_ValidUniqueID()'><b>PostServiceInquiry_ValidUniqueID</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.SpecialCharacterEntityID_GetServiceInquiry()'><b>SpecialCharacterEntityID_GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqErrorCode()'><b>Transactionstatus_AlphaNumericAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqErrorText()'><b>Transactionstatus_AlphaNumericAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqPaymentMode()'><b>Transactionstatus_AlphaNumericAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqRRN()'><b>Transactionstatus_AlphaNumericAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqTransactionAmount()'><b>Transactionstatus_AlphaNumericAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqTransactionId()'><b>Transactionstatus_AlphaNumericAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericAcqTransactionstatus()'><b>Transactionstatus_AlphaNumericAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericCardName()'><b>Transactionstatus_AlphaNumericCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_AlphaNumericCatalogueTransactionId()'><b>Transactionstatus_AlphaNumericCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqErrorCode()'><b>Transactionstatus_BlankAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqErrorText()'><b>Transactionstatus_BlankAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqPaymentMode()'><b>Transactionstatus_BlankAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqRRN()'><b>Transactionstatus_BlankAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqTransactionAmount()'><b>Transactionstatus_BlankAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqTransactionId()'><b>Transactionstatus_BlankAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankAcqTransactionstatus()'><b>Transactionstatus_BlankAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankCardName()'><b>Transactionstatus_BlankCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_BlankCatalogueTransactionId()'><b>Transactionstatus_BlankCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqErrorCode()'><b>Transactionstatus_DecimalAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqErrorText()'><b>Transactionstatus_DecimalAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqPaymentMode()'><b>Transactionstatus_DecimalAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqRRN()'><b>Transactionstatus_DecimalAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqTransactionAmount()'><b>Transactionstatus_DecimalAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqTransactionId()'><b>Transactionstatus_DecimalAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalAcqTransactionstatus()'><b>Transactionstatus_DecimalAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalCardName()'><b>Transactionstatus_DecimalCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_DecimalCatalogueTransactionId()'><b>Transactionstatus_DecimalCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqErrorCode()'><b>Transactionstatus_InvalidAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqErrorText()'><b>Transactionstatus_InvalidAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqPaymentMode()'><b>Transactionstatus_InvalidAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqRRN()'><b>Transactionstatus_InvalidAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqTransactionAmount()'><b>Transactionstatus_InvalidAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqTransactionId()'><b>Transactionstatus_InvalidAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidAcqTransactionstatus()'><b>Transactionstatus_InvalidAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidCardName()'><b>Transactionstatus_InvalidCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_InvalidCatalogueTransactionId()'><b>Transactionstatus_InvalidCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqErrorCode()'><b>Transactionstatus_MaxAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqErrorText()'><b>Transactionstatus_MaxAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqPaymentMode()'><b>Transactionstatus_MaxAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqRRN()'><b>Transactionstatus_MaxAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqTransactionAmount()'><b>Transactionstatus_MaxAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqTransactionId()'><b>Transactionstatus_MaxAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxAcqTransactionstatus()'><b>Transactionstatus_MaxAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxCardName()'><b>Transactionstatus_MaxCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MaxCatalogueTransactionId()'><b>Transactionstatus_MaxCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqErrorCode()'><b>Transactionstatus_MinAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqErrorText()'><b>Transactionstatus_MinAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqPaymentMode()'><b>Transactionstatus_MinAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqRRN()'><b>Transactionstatus_MinAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqTransactionAmount()'><b>Transactionstatus_MinAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqTransactionId()'><b>Transactionstatus_MinAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinAcqTransactionstatus()'><b>Transactionstatus_MinAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinCardName()'><b>Transactionstatus_MinCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_MinCatalogueTransactionId()'><b>Transactionstatus_MinCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqErrorCode()'><b>Transactionstatus_SpecialCharacterAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqErrorText()'><b>Transactionstatus_SpecialCharacterAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqPaymentMode()'><b>Transactionstatus_SpecialCharacterAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqRRN()'><b>Transactionstatus_SpecialCharacterAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqTransactionAmount()'><b>Transactionstatus_SpecialCharacterAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqTransactionId()'><b>Transactionstatus_SpecialCharacterAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterAcqTransactionstatus()'><b>Transactionstatus_SpecialCharacterAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterCardName()'><b>Transactionstatus_SpecialCharacterCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_SpecialCharacterCatalogueTransactionId()'><b>Transactionstatus_SpecialCharacterCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqErrorCode()'><b>Transactionstatus_ValidAcqErrorCode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqErrorText()'><b>Transactionstatus_ValidAcqErrorText</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqPaymentMode()'><b>Transactionstatus_ValidAcqPaymentMode</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqRRN()'><b>Transactionstatus_ValidAcqRRN</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqTransactionAmount()'><b>Transactionstatus_ValidAcqTransactionAmount</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqTransactionId()'><b>Transactionstatus_ValidAcqTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidAcqTransactionstatus()'><b>Transactionstatus_ValidAcqTransactionstatus</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidCardName()'><b>Transactionstatus_ValidCardName</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.Transactionstatus_ValidCatalogueTransactionId()'><b>Transactionstatus_ValidCatalogueTransactionId</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+<tr>
+<td title='com.MOFapi.MOFapi.maxEntityID_GetServiceInquiry()'><b>maxEntityID_GetServiceInquiry</b><br>Test class: com.MOFapi.MOFapi</td>
+<td></td>
+<td>0</td>
+<td>com.MOFapi.MOFapi@75329a49</td></tr>
+</table><p>
+</body>
+</html>
