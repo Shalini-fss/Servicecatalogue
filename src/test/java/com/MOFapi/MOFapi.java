@@ -31,7 +31,7 @@ public class MOFapi extends API_Excelutilities {
     public void initializeReports() throws Exception {
         Date d = new Date();
         String FileName = d.toString().replace(":", "_").replace(" ", "_");
-        String directoryPath = "C:\\Users\\roshanbabu\\Desktop\\AUTO_RESULT\\AUTO_API_RESULT";
+        String directoryPath = "D:\\Automation\\EDB_AUTO\\";
 
         File directory = new File(directoryPath);
         if (!directory.exists()) {

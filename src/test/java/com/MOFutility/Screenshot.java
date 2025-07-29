@@ -24,7 +24,7 @@ public class Screenshot {
 		    String fileName = ScreenshotName + d.toString().replace(":", "_").replace(" ", "_") + ".png";
 
 		    // Ensure the directory exists
-		    String directoryPath = "C:\\Users\\roshanbabu\\Desktop\\AUTO_SS\\";
+		    String directoryPath = "D:\\Automation\\Screenshot_EDB\\";
 		    File dir = new File(directoryPath);
 		    if (!dir.exists()) {
 		        dir.mkdirs();

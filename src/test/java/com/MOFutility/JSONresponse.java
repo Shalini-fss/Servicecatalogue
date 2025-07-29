@@ -11,7 +11,7 @@ public class JSONresponse {
 		String FileName = d.toString().replace(":", "_").replace(" ", "_") + ".txt";
 
 		FileWriter file = new FileWriter(
-				"C:\\Users\\shalinis\\Documents\\Automation\\Projects\\MOF_UI_API_V3\\JSON File" + " " + FileName + ".txt");
+				"D:\\Automation\\EDB JSON\\" + " " + FileName + ".txt");
 		
 		
 	}

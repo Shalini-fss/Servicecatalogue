@@ -5,7 +5,7 @@ import com.MOFutility.API_Excelutilities;
 public class API_URL extends API_Excelutilities {
 
 	// Define the file path for the Excel sheet
-	public static String FilepathAPI = "C:\\Users\\roshanbabu\\Desktop\\AUTO_RESULT\\Auotmation_script\\MOCY_AUTO\\src\\test\\resources\\API_MOF_TEST_DATA.xlsx";
+	public static String FilepathAPI = "D:\\Automation\\Automation test data\\API_MOF_TEST_DATA.xlsx";
 
 	// Define constants with default values
 	public static String url;
