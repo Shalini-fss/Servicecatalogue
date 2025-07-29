@@ -126,7 +126,7 @@
                         <include>com/executionCore/Engine.java</include>
                     </includes>
                     <suiteXmlFiles>
-                        <suiteXmlFile>EDB_AUTO/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>D:\Automation\EDB_AUTO\EDB_AUTO\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
